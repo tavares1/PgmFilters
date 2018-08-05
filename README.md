@@ -13,7 +13,7 @@ Primeira atividade da cadeira de computação gráfica 2018.2 - IFCE. Precisavam
 ## Screenshots 📷
 
 |             | Original    | Filtrado     |
-| :---        |    :----:   |          ---: |
+| :---        |    :----:   |          :---: |
 | Média       | ![](resources/media_original.png)       | ![](resources/media_filtrado.png) |
 | Mediana   | ![](resources/mediana_original.png)         | ![](resources/mediana_filtrado.png)     |
 | Contraste   | ![](resources/contraste_original.png)         | ![](resources/contraste_filtrado.png)     |
