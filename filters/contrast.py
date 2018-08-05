@@ -5,8 +5,8 @@ from PIL import Image
 def constrat(data,value_contrast):
     data_final = data
     height, width = data.shape
-    for x in range(1, height - 1):
-        for y in range(1, width - 1):
+    for x in range(0, height):
+        for y in range(0, width):
             max_constract = data[x, y] + data[x, y] * 10 / 100
             min_constract = data[x, y] - data[x, y] * 10 / 100
             if max_constract > 255:
