@@ -3,7 +3,7 @@ from PIL import Image
 
 
 def threshold_filter(data,limiar):
-    # Criando um novo np.ndarray, estrutura sedida pelo numpy que simula uma matriz em python.
+    # Criando um novo np.ndarray, estrutura cedida pelo numpy que simula uma matriz em python.
     data_final = data
     for i in range(len(data)):
         for j in range(len(data[i])):
