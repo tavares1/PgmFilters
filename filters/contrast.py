@@ -2,7 +2,7 @@ import numpy
 from PIL import Image
 
 
-def constrat(data,value_contrast):
+def contrast(data,value_contrast):
     data_final = data
     # Conhecendo o tamanho da imagem.
     height, width = data.shape
@@ -21,7 +21,7 @@ def constrat(data,value_contrast):
 def main():
     img = Image.open("../images/abe_natsumi.pgm")
     arr = numpy.array(img)
-    arr_filtred = constrat(arr,180)
+    arr_filtred = contrast(arr,180)
     out = Image.fromarray(arr_filtred)
     img.show()
     out.show()
